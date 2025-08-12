@@ -1,0 +1,24 @@
+{
+  "name": "simple-note-taking-app",
+  "version": "1.0.0",
+  "description": "A simple note-taking application built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "echo 'No tests specified yet'",
+    "build": "echo 'Static app - no build process needed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/notetakingapp.git"
+  },
+  "keywords": [
+    "notes",
+    "javascript",
+    "html",
+    "css",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
