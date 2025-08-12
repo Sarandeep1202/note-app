@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Note App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 My Simple Note App</h1>
+        
+        <!-- Form to add new notes -->
+        <div class="note-form">
+            <input type="text" id="noteTitle" class="note-input" placeholder="Enter note title..." maxlength="100">
+            <textarea id="noteContent" class="note-input" placeholder="Write your note here..."></textarea>
+            <button onclick="addNote()" class="btn">Add Note</button>
+            <button onclick="clearForm()" class="btn" style="background-color: #999;">Clear</button>
+        </div>
+
+        <!-- List of notes -->
+        <div class="notes-list">
+            <h2>My Notes</h2>
+            <div id="notesList">
+                <div class="empty-message">No notes yet. Add your first note above!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
