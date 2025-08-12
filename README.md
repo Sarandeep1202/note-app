@@ -1,2 +1,3 @@
-# note-app
-#This is just a demo 
+
+
+ Testing the complete CI/CD workflow: Push → Jenkins → Docker → Deploy
